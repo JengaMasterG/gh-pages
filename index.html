@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head><style type="text/css">body{
-  background: linear-gradient(to bottom, #2c3e50, #34495e);
-}
-
-.name
+<head><style type="text/css">
+body
 {
-  margin: 5%;
-  font-size: 200%;
+  background: url(http://www.facets.la/wallpaper/W_2013_232.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: Open Sans Condensed;
 }
+
+.header
+{
+  background: #34494d;
+  position: center;
+  margin: .5%;
+  top: 0;
+}
+
+#name
+{
+  font-size: 125%;
+  font-weight: bold; 
+  color: whitesmoke;
+}
+
+#Nav
+{
+  position: center;
+  font-size: 125%;
+  font-weight: bold;
+  color: ghostwhite;
+}
+
 .About
 {
   background: url(https://scontent-lga3-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/1995_10205984477872507_790508475117194814_n.jpg?oh=84984ad5dde3ccbe52b6c5c8d15bf1fa&oe=5796DE9E);  
-  margin: 5%;
-  width: 75%;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin: 1%;
+  padding: 2%;
+  top: 0;
+  left: 0;
+  width: 50%;
   height: auto;
 }</style>
 
@@ -24,8 +52,10 @@
 </head>
 <body>
 <!-- Start your code here -->
-
-  <h3 class="name"> Giovanni Ruggirello </h3>
+  <div class="header">
+  <div id="name"> Giovanni Ruggirello </div> <div id="Nav">About Me  Resume  Contact Me</div>
+  </div>
+ 
   <div class="About"> About me</div>
 
 <!-- End your code here -->
