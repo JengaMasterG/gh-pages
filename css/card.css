@@ -111,6 +111,10 @@
 	padding: 0 0 1em 0;
 }
 
+.card__copy adr{
+	margin-left: 1em;
+}
+
 .card__btn-close {
 	font-size: 18px;
 	position: absolute;
