@@ -44,6 +44,10 @@ body.body--hidden {
 body.body--hidden .codrops-header,
 body.body--hidden .content--related {
 	opacity: 0;
+    visibility: hidden;
+    opacity: 0;
+    transform-origin: center bottom 0px;
+    transform: matrix(0.8, 0, 0, 0.8, 0, 0);
 }
 
 .codrops-header,
