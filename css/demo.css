@@ -27,7 +27,7 @@ body {
 	font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	line-height: 1.5;
 	color: #3b393d;
-	background-image: url(../img/40_LUX.jpg);
+	background-image: url(../img/Savin-NY-Website-Background-Web.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -111,7 +111,7 @@ a:focus {
 .codrops-header h1 span {
 	font-size: .45em;
 	display: block;
-	padding: .5em 0 1em;
+	padding: .5em 0 0 auto;
 	color: #999;
 }
 /* Top Navigation Style */
@@ -176,7 +176,7 @@ a:focus {
 
 .codrops-demos a {
 	display: inline-block;
-	margin: 0 .5em;
+	margin: .0001em .5em;
 }
 
 .codrops-demos a.current-demo {
@@ -193,7 +193,7 @@ a:focus {
 .content--related {
 	font-weight: bold;
 	text-align: center;
-	padding: 10em;
+	padding: 2.5em;
 }
 
 .media-item {
